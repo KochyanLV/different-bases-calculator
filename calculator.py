@@ -163,7 +163,7 @@ class Calculator:
             else:
                 return self.float_to_base(eval(wrd), int(self.number_system))
         else:
-            if isinstance(expression, int):
+            if type(int(expression)) is int:
                 expression = int(expression, int(self.old_number_system))
                 return self.to_base_n(expression, int(self.number_system))
             else:
