@@ -11,6 +11,7 @@ root = tk.Tk()
 root.title("Units Converter")
 root.geometry("450x300")
 root.config(bg="#dfe6e9")
+root.resizable(0, 0)
 text_color = "#2d3436"
 
 def meters_to_inches():
